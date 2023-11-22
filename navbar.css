@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.containerss {
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 1000px;
+}
+
+.navbar {
+    background-color: grey;
+    width: 70%;
+    padding: 15px 15% 15px 15%;
+    position: fixed;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    
+}
+
+.lien {
+    text-align: right;
+}
+
+.navbar a {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.navbar .lien a:last-child {
+    margin-right: 20px;
+}
+
+.navbar img {
+    width: 15%;
+    height: 100%;
+}
+
+
+.heart{
+    margin-top: 100px;
+}

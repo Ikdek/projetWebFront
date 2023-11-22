@@ -1,0 +1,10 @@
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 1000px;
+}
+
+.BlocPara {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -8,6 +8,37 @@
     display: flex;
     justify-content: flex-end;
 }
+<<<<<<< HEAD
 body{
     background-color: lightsalmon;
 }
+=======
+
+.BlocPara a{
+    background-color: blue;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 0,3s;
+}
+
+.BlocPara a:hover{
+    background-color: rgb(0, 0, 203);
+}
+
+.BlocPara a:active{
+    background-color: rgb(0, 0, 166);
+}
+
+
+@media (max-width: 768px){
+    .BlocPara {
+        display: flex;
+        align-content: center;  
+        flex-direction: column;
+    }
+   
+}
+>>>>>>> 7f5a426c49257067703a2e60cba0f7dea7dc6fdb

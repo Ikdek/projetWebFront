@@ -1,18 +1,30 @@
+body{
+    margin: 0, 0, 0, 0;
+}
+
 .container {
-    padding-left: 15%;
-    padding-right: 15%;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
     max-width: 1000px;
+}
+
+.image {
+    width: 1000px;
+    height: auto;
+
+}
+
+.Image2{
+    width: 200px;
+    height: 300px;
 }
 
 .BlocPara {
     display: flex;
     justify-content: flex-end;
 }
-<<<<<<< HEAD
-body{
-    background-color: lightsalmon;
-}
-=======
 
 .BlocPara a{
     background-color: blue;
@@ -33,12 +45,35 @@ body{
 }
 
 
+
 @media (max-width: 768px){
     .BlocPara {
         display: flex;
         align-content: center;  
         flex-direction: column;
+        overflow-wrap: break-word;
+        overflow: hidden;
+        white-space: wrap;
+    }
+
+    .text h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .text a{
+        display: flex;
+        justify-content: center;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .right_page{
+        display: flex;
+        justify-content: center;
+    }
+    .Image2{
+        width: 1000px;
+        height: auto;
     }
    
 }
->>>>>>> 7f5a426c49257067703a2e60cba0f7dea7dc6fdb

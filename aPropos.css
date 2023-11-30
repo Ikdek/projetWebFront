@@ -25,7 +25,7 @@
 }
 
 @media (max-width: 768px){
-    .container_ap{
+    .container_apropos{
         flex-direction: column;
     }
 }

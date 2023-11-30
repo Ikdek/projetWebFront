@@ -7,16 +7,11 @@ body {
     font-family: 'Nova Square', sans-serif;
 }
 
-.containerGlobal {
-  padding-left: 15%;
-  padding-right: 15%;
 
-}
 
 .navbar {
     background-color: white;
     width: auto;
-    padding: 15px 15% 15px 15%;
     position: fixed;
     height: 60px;
     display: flex;
@@ -68,6 +63,13 @@ body {
 @media (min-width:768px) {
     .menu{
         display: none;
+    }
+    .containerGlobal {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .navbar{
+      padding: 15px 15% 15px 15%;
     }
     
 }

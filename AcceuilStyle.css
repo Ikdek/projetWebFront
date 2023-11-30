@@ -11,7 +11,7 @@ body{
 }
 
 .image {
-    width: 1000px;
+    width: 100%;
     height: auto;
 
 }
@@ -72,7 +72,7 @@ body{
         justify-content: center;
     }
     .Image2{
-        width: 1000px;
+        width: 100%;
         height: auto;
     }
    

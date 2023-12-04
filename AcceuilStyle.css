@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0, 0, 0, 0;
 }
 
@@ -15,7 +15,7 @@ body{
 
 }
 
-.Image2{
+.Image2 {
     width: 300px;
 }
 
@@ -24,54 +24,56 @@ body{
     justify-content: flex-end;
 }
 
-.BlocPara a{
+.BlocPara a {
     background-color: blue;
     color: black;
     border-radius: 10px;
     text-decoration: none;
     padding: 10px;
     margin: 10px;
-    transition: background-color 0,3s;
+    transition: background-color 0, 3s;
 }
 
-.BlocPara a:hover{
+.BlocPara a:hover {
     background-color: rgb(0, 0, 203);
 }
 
-.BlocPara a:active{
+.BlocPara a:active {
     background-color: rgb(0, 0, 166);
 }
 
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .BlocPara {
         display: flex;
-        align-content: center;  
+        align-content: center;
         flex-direction: column;
         overflow-wrap: break-word;
         overflow: hidden;
         white-space: wrap;
     }
 
-    .text h1{
+    .text h1 {
         display: flex;
         justify-content: center;
     }
 
-    .text a{
+    .text a {
         display: flex;
         justify-content: center;
         margin-left: 30%;
         margin-right: 30%;
     }
-    .right_page{
+
+    .right_page {
         display: flex;
         justify-content: center;
     }
-    .Image2{
+
+    .Image2 {
         width: 100%;
         height: auto;
     }
-   
+
 }

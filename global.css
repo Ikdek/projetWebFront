@@ -1,129 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: lightgray;
-    font-family: 'Nova Square', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  font-family: 'Nova Square', sans-serif;
 }
 
 
 
 .navbar {
-    background-color: white;
-    width: auto;
-    position: fixed;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    border-radius: 10px;
-    opacity: 0.8;
-    
+  background-color: white;
+  width: auto;
+  position: fixed;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  left: 10px;
+  right: 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+
 }
 
 .lien {
-    text-align: right;
-    
+  text-align: right;
+
 }
 
-.lien a{
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
-    color: lightcoral;
-    margin: 5px;
-    text-decoration: none;
-    height: 100%;
+.lien a {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  color: lightcoral;
+  margin: 5px;
+  text-decoration: none;
+  height: 100%;
 }
 
 .navbar .lien a:last-child {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
-.navbar img{
-    width: 15%;
-    height: 100%;
+.navbar img {
+  width: 15%;
+  height: 100%;
 }
 
 
-.heart{
-    margin-top: 100px;
-    width: 100%;
+.heart {
+  margin-top: 100px;
+  width: 100%;
 }
+
 @media (max-width:768px) {
-    .navbar a {
-        display: none;
-    }
-    
+  .navbar a {
+    display: none;
+  }
+
 }
+
 @media (min-width:768px) {
-    .menu{
-        display: none;
-    }
-    .containerGlobal {
-      padding-left: 15%;
-      padding-right: 15%;
-    }
-    .navbar{
-      padding: 15px 15% 15px 15%;
-    }
-    
+  .menu {
+    display: none;
+  }
+
+  .containerGlobal {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .navbar {
+    padding: 15px 15% 15px 15%;
+  }
+
 }
+
 .menu {
-    --s: 50px;
-    --c: black; 
-    
-    height: var(--s);
-    aspect-ratio: 1;
-    border: none;
-    padding: 0;
-    border-inline: calc(var(--s)/2) solid #0000; 
-    box-sizing: content-box;
-    --_g1: linear-gradient(var(--c) 20%,#0000 0 80%,var(--c) 0) 
-           no-repeat content-box border-box;
-    --_g2: radial-gradient(circle closest-side at 50% 12.5%,var(--c) 95%,#0000) 
-           repeat-y content-box border-box;
-    background: 
-      var(--_g2) left  var(--_p,0px) top,
-      var(--_g1) left  calc(var(--s)/10 + var(--_p,0px)) top,
-      var(--_g2) right var(--_p,0px) top,
-      var(--_g1) right calc(var(--s)/10 + var(--_p,0px)) top;
-    background-size: 
-      20% 80%,
-      40% 100%;
-    position: relative;
-    clip-path: inset(0 25%);
-    cursor: pointer;
-    transition: 
-      background-position .3s var(--_s,.3s), 
-      clip-path 0s var(--_s,.6s);
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    appearance:none;
-  }
-  .menu:before,
-  .menu:after {
-    content:"";
-    position: absolute;
-    border-radius: var(--s);
-    inset: 40% 0;
-    background: var(--c);
-    transition: transform .3s calc(.3s - var(--_s,.3s));
-  }
-  
-  .menu:checked {
-    clip-path: inset(0);
-    --_p: calc(-1*var(--s));
-    --_s: 0s;
-  }
-  .menu:checked:before {
-    transform: rotate(45deg);
-  }
-  .menu:checked:after {
-    transform: rotate(-45deg);
-  }
-  
+  --s: 50px;
+  --c: black;
+
+  height: var(--s);
+  aspect-ratio: 1;
+  border: none;
+  padding: 0;
+  border-inline: calc(var(--s)/2) solid #0000;
+  box-sizing: content-box;
+  --_g1: linear-gradient(var(--c) 20%, #0000 0 80%, var(--c) 0) no-repeat content-box border-box;
+  --_g2: radial-gradient(circle closest-side at 50% 12.5%, var(--c) 95%, #0000) repeat-y content-box border-box;
+  background:
+    var(--_g2) left var(--_p, 0px) top,
+    var(--_g1) left calc(var(--s)/10 + var(--_p, 0px)) top,
+    var(--_g2) right var(--_p, 0px) top,
+    var(--_g1) right calc(var(--s)/10 + var(--_p, 0px)) top;
+  background-size:
+    20% 80%,
+    40% 100%;
+  position: relative;
+  clip-path: inset(0 25%);
+  cursor: pointer;
+  transition:
+    background-position .3s var(--_s, .3s),
+    clip-path 0s var(--_s, .6s);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.menu:before,
+.menu:after {
+  content: "";
+  position: absolute;
+  border-radius: var(--s);
+  inset: 40% 0;
+  background: var(--c);
+  transition: transform .3s calc(.3s - var(--_s, .3s));
+}
+
+.menu:checked {
+  clip-path: inset(0);
+  --_p: calc(-1*var(--s));
+  --_s: 0s;
+}
+
+.menu:checked:before {
+  transform: rotate(45deg);
+}
+
+.menu:checked:after {
+  transform: rotate(-45deg);
+}

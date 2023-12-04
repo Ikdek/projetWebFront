@@ -1,19 +1,19 @@
-    .container_contact{
+    .container_contact {
         display: flex;
         justify-content: space-around, center;
-        width : 100% ;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         max-width: 1000px;
         flex-direction: column;
     }
 
-    .contact{
+    .contact {
         display: flex;
         justify-content: center;
     }
 
-    .formulaire_contact{
+    .formulaire_contact {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -23,48 +23,48 @@
         row-gap: 12px;
     }
 
-    .nom_prenom{
+    .nom_prenom {
         display: flex;
         gap: 10px;
     }
 
-    .nom{
+    .nom {
         display: flex;
         flex-direction: column;
     }
 
-    .prenom{
+    .prenom {
         display: flex;
         flex-direction: column;
     }
 
-    .email{
+    .email {
         display: flex;
         flex-direction: column;
     }
 
-    .sujet{
+    .sujet {
         display: flex;
         flex-direction: column;
     }
 
-    textarea{
+    textarea {
         resize: none;
     }
 
-    .forms{
+    .forms {
         border-radius: 4px;
         border: 0px;
         background-color: white(1, 175, 1);
         color: black;
     }
 
-    .bouton_formulaire{
+    .bouton_formulaire {
         display: flex;
         justify-content: flex-end;
     }
 
-    .button{
+    .button {
         width: 160px;
         height: 30px;
         border-radius: 4px;
@@ -73,13 +73,13 @@
         cursor: pointer;
     }
 
-    @media (max-width: 768px){
-        .bouton_formulaire{
+    @media (max-width: 768px) {
+        .bouton_formulaire {
             flex-wrap: wrap;
             justify-content: center;
         }
 
-        .formulaire{
+        .formulaire {
             margin-left: auto;
             margin-right: auto;
         }

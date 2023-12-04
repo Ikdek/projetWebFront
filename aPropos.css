@@ -1,4 +1,4 @@
-.card_apropos{
+.card_apropos {
     width: auto;
     border-radius: 20px;
     padding: 10px;
@@ -8,27 +8,27 @@
     column-gap: 5px;
 }
 
-.img_card{
+.img_card {
     width: 75px;
     height: 150px;
     border-radius: 10px;
 }
 
-.container_apropos{
+.container_apropos {
     display: flex;
     justify-content: space-around, center;
-    width : 100% ;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.img_apropos{
+.img_apropos {
     width: 100%;
     height: 500px;
 }
 
-@media (max-width: 768px){
-    .container_apropos{
+@media (max-width: 768px) {
+    .container_apropos {
         flex-direction: column;
     }
 }

@@ -5,11 +5,13 @@
     margin: 10px;
     box-shadow: 0 0 2px 0 inset;
     display: flex;
+    column-gap: 5px;
 }
 
 .img_card{
     width: 75px;
-    height: 75px;
+    height: 150px;
+    border-radius: 10px;
 }
 
 .container_apropos{
@@ -22,6 +24,7 @@
 
 .img_apropos{
     width: 100%;
+    height: 500px;
 }
 
 @media (max-width: 768px){
